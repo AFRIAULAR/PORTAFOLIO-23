@@ -67,37 +67,43 @@ h1{
 }
 
 /*experiencia*/
-.experiencia{
+.sobreMi{
     padding: 40px;
 }
 
-.experiencia .columna {
+.sobreMi .columna {
     padding: 20px;
-    border: 2px solid #8080804d;
     display: flex;
     flex-direction: column;
     transition: all 0.2s ease-in;
 }
 
-.experiencia .columna:hover{
+.sobreMi .columna:hover{
     color: #f5f6f7;
     background-color: #1b1b32;
 }
-.experiencia .columna:hover i {
+.sobreMi .columna:hover i {
     color: #f5f6f7;
 }
 
 
-.experiencia-titulo{
+.sobreMi-titulo{
     font-size: 25px;
     font-weight: bold;
     margin: 10px;
 }
-.experiencia i{
+.sobreMi i{
     font-size: 2.5rem;
     color: #1b1b32; 
 }
 
+.educacion-container{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 /*media queries*/
 
 @media screen and (max-width: 767px){
@@ -105,4 +111,17 @@ h1{
         display: none;
     }
 }
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+  .img-educ{
+    max-width: 150px;
+  }
+}
+
 
